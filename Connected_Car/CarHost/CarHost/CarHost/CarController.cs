@@ -21,14 +21,14 @@ namespace CarHost
 
         public void TurnLeft()
         {
-            _motor1.Speed = 1f;
-            _motor2.Speed = -1f;
+            _motor1.Speed = 0.75f;
+            _motor2.Speed = -0.75f;
         }
 
         public void TurnRight()
         {
-            _motor1.Speed = -1f;
-            _motor2.Speed = 1f;
+            _motor1.Speed = -0.75f;
+            _motor2.Speed = 0.75f;
         }
 
         public void MoveForward()

@@ -20,7 +20,7 @@ namespace CarRemote
 
         private async void BtnUpReleased(object sender, EventArgs e)
         {
-            await vm.SendCommandAsync(CommandConstants.STOP);
+            //await vm.SendCommandAsync(CommandConstants.STOP);
         }
 
         private async void BtnDownPressed(object sender, EventArgs e)
